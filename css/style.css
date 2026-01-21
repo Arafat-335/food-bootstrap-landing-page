@@ -7,53 +7,53 @@
 /* nevbar section */
 
 
-/* .nav-item a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-right: 15px;
-    transition: all 0.4s;
+.nav-item a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-right: 15px;
+	transition: all 0.4s;
 }
 
 .nav-item a:hover {
-    color: rgb(20, 219, 20) !important;
+	color: rgb(20, 219, 20) !important;
 }
 
 .search {
-    height: 45Px;
-    outline: none;
-    border: 2px solid rgb(20, 219, 20);
-    background-color: transparent;
-    border-radius: 20px 0px 0px 20px;
-    border-right: none;
+	height: 45Px;
+	outline: none;
+	border: 2px solid rgb(20, 219, 20);
+	background-color: transparent;
+	border-radius: 20px 0px 0px 20px;
+	border-right: none;
 }
 
 .btn1 {
-    height: 45px;
-    outline: none;
-    border: none;
-    background-color: rgb(20, 219, 20);
-    color: white;
-    border-radius: 0px 20px 20px 0px;
-    transition: all 0.4s
+	height: 45px;
+	outline: none;
+	border: none;
+	background-color: rgb(20, 219, 20);
+	color: white;
+	border-radius: 0px 20px 20px 0px;
+	transition: all 0.4s
 }
 
 .btn1:hover {
-    background-color: rgb(5, 250, 5);
+	background-color: rgb(5, 250, 5);
 }
 
 .bi-bag-check {
-    font-size: 30px;
-    color: black;
-    cursor: pointer;
-    padding-top: 5px;
-    transition: all 0.4s;
+	font-size: 30px;
+	color: black;
+	cursor: pointer;
+	padding-top: 5px;
+	transition: all 0.4s;
 }
 
 .bi-bag-check:hover {
-    color: rgb(20, 219, 20);
-} */
+	color: rgb(20, 219, 20);
+}
 
 /* nevbar section */
 
@@ -100,7 +100,7 @@
 }
 
 .mbtn2 {
-	padding:10px 30px;
+	padding: 10px 30px;
 	outline: none;
 	background-color: transparent;
 	color: rgb(20, 219, 20);
@@ -137,83 +137,97 @@
 /* about section */
 
 /* welcome section */
-.welcome{
+.welcome {
 	background: rgb(20, 219, 20);
 }
-.line2{
+
+.line2 {
 	padding: 2px 30%;
 	background-color: white;
 	display: inline-block;
 }
-.welcome h1{
+
+.welcome h1 {
 	font-size: 2rem;
 	font-weight: bold;
 }
-.welcome .card{
+
+.welcome .card {
 	border: none;
 	border-radius: 0;
-	sursor:pointer
+	sursor: pointer
 }
-.welcome i{
+
+.welcome i {
 	font-size: 45px;
 	color: rgb(20, 219, 20);
 }
-.welcome h2{
+
+.welcome h2 {
 	font-weight: lighter;
 	padding: 10px 0px;
 }
+
 /* welcome section */
 
 /* product section */
-.star{
+.star {
 	text-align: end;
-	color:orange;
+	color: orange;
 }
-.product .card{
-	border:none;
+
+.product .card {
+	border: none;
 	border-radius: 0;
 	cursor: pointer;
 }
-.product .card-body{
-	border:1px dashed rgb(rgb(175, 172, 172))
+
+.product .card-body {
+	border: 1px dashed rgb(rgb(175, 172, 172))
 }
-.head1{
+
+.head1 {
 	font-weight: 400;
 	margin: 0;
 }
-.per1{
+
+.per1 {
 	color: gray;
 }
+
 .btnc {
-    height: 50px;
-    width: 50%;
-    outline: none;
-    border: none;
-    color: white;
-    background: rgb(20, 219, 20);
-    border-radius: 50px;
-    margin: 0 auto;
-    display: block;
-    transition: all 0.4s;
+	height: 50px;
+	width: 50%;
+	outline: none;
+	border: none;
+	color: white;
+	background: rgb(20, 219, 20);
+	border-radius: 50px;
+	margin: 0 auto;
+	display: block;
+	transition: all 0.4s;
 }
+
 .btnc:hover {
-    outline: none;
-    border: 1px solid rgb(20, 219, 20);
-    color: rgb(20, 219, 20);
-    background: transparent;
-    border-radius: 50px;
+	outline: none;
+	border: 1px solid rgb(20, 219, 20);
+	color: rgb(20, 219, 20);
+	background: transparent;
+	border-radius: 50px;
 }
+
 /* product section */
 
 
 /* discount section */
-.discount{
+.discount {
 	background-color: rgb(20, 219, 20);
 	color: white;
 }
-.dbtn{
+
+.dbtn {
 	height: 50px;
-    width: 80%;
+	width: 80%;
 	outline: none;
 	border: none;
 	color: black;
@@ -224,52 +238,63 @@
 	font-weight: lighter;
 	transition: all 0.4s;
 }
-.dbtn:hover{
+
+.dbtn:hover {
 	background-color: rgb(216, 211, 202);
 }
+
 /* discount section */
 
 /* store section start */
-.store h1{
-    font-size: 3rem;
-    font-weight: bold;
+.store h1 {
+	font-size: 3rem;
+	font-weight: bold;
 }
-.store p:nth-child(1){
-    font-size: 18px;
-    font-weight: 500;
+
+.store p:nth-child(1) {
+	font-size: 18px;
+	font-weight: 500;
 }
-.store p:nth-child(2){
-    font-size: 18px;
-    color: grey;
+
+.store p:nth-child(2) {
+	font-size: 18px;
+	color: grey;
 }
-.store i{
-    font-size: 45px;
+
+.store i {
+	font-size: 45px;
 }
-.store .card{
-    border-radius: 0;
-    border: none;
-    transition: all 0.3s;
-    cursor: pointer;
+
+.store .card {
+	border-radius: 0;
+	border: none;
+	transition: all 0.3s;
+	cursor: pointer;
 }
-.store .card:hover{
-    background-color: rgb(20, 219, 20);
-    color: white;
+
+.store .card:hover {
+	background-color: rgb(20, 219, 20);
+	color: white;
 }
+
 /* store section end */
 
 
 /* contact section start */
-.contact{
+.contact {
 	background: url(../foodimags/cont.jpg)no-repeat;
 	background-size: cover;
 	width: 100%;
 }
-.contact h1{
-    font-size: 3rem;
-    font-weight: bold;
-    color: white;
+
+.contact h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
 }
-.contact p{
-    color: white;
+
+.contact p {
+	color: white;
 }
+
 /* contact section end */
